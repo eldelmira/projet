@@ -1,54 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:mediumslateblue;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 h1{
-    text-align: center;
-    font-style: oblique;
-    color: rgb(10, 19, 10);
-    border: 3px;
-    border-style:solid;
-    border-color: white;
-    background-color: rgb(24, 212, 181);
-    height: 100px;
-    filter: brightness(1.75);
-    filter: drop-shadow(0 -6mm 4mm rgb(221, 224, 224));
-    border-radius: 10px;
-    text-shadow: 1px 1px 2px pink;
+    color: rgb(111, 131, 131);
 }
-
-.form{
-    
-    text-align: center;
-    text-decoration-color:beige ;
-    border: 2px;
-    border-style:solid;
-    border-color: white;
-    font-size: larger;
-    border-radius: 20px;
-    width: 70%;
-    margin: auto;
-    justify-content: center;
-   
+form{
+    background-color: teal;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
 }
-
-.label{
-    color: lightslategray;
-    font-size: 24px;
-    display: inline;
-    text-align: justify;
-    -moz-text-align-last: justify;
-    text-align-last:justify;
-    padding-right: 10%;
-    
-    
-    
-
-    
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-
-.entry{
-    display:block;
-    padding-left: 60px;
-    justify-content: left;
-    padding-block: 0.9px;
-    margin: auto;
-
-    
+input[type="text"], input[type="email"], textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid pink;
+    border-radius: 3px;
+}
+input[type=submit]{
+    background-color: aqua;
+    color: cadetblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: darkgreen;
 }
