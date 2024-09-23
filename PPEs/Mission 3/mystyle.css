@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font-style: oblique;
+    color: rgb(10, 19, 10);
+    border: 3px;
+    border-style:solid;
+    border-color: white;
+    background-color: rgb(24, 212, 181);
+    height: 100px;
+    filter: brightness(1.75);
+    filter: drop-shadow(0 -6mm 4mm rgb(221, 224, 224));
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.form{
+    
+    text-align: center;
+    text-decoration-color:beige ;
+    border: 2px;
+    border-style:solid;
+    border-color: white;
+    font-size: larger;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+   
+}
+
+.label{
+    color: lightslategray;
+    font-size: 24px;
+    display: inline;
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last:justify;
+    padding-right: 10%;
+    
+    
+    
+
+    
+}
+
+.entry{
+    display:block;
+    padding-left: 60px;
+    justify-content: left;
+    padding-block: 0.9px;
+    margin: auto;
+
+    
+}
