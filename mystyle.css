@@ -1,18 +1,16 @@
 a{
     list-style: none;
     text-decoration: none;
-    display: block;
-    height: 50px;
-    padding: 10px;
-    border: 2px;
-    border-radius: 30px;
-    text-align: center;
+    width: 50%;
+    margin: 0;
+    box-shadow: #000000;
+    color:navy;
     font-size: 20px;
-    font-style: italic;
+    
 }
 
 body{
-    background-color: wheat;
+    background: linear-gradient(to right, #e100ff 0%, #9f07e6 100%);
 }
 
 h1{
@@ -23,20 +21,29 @@ h1{
 }
 li{
     list-style: none;
+    border: 2px;
+    border-radius: 10px;
+    
+
+
     
 }
 
 div{
-    background-color:black ;
+    background-image: url('image.gif');
+    border: 5px;
+    border-radius: 30px;
+    width: 50%;
+   
 }
 
 h2{
     color: blue;
     font-style: italic;
     text-align: center;
-    border: 2px;
-    border-style: ridge;
-    border-color: black;
     
 }
+
+
+
 
