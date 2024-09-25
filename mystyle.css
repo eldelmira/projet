@@ -4,7 +4,7 @@ a{
     width: 50%;
     margin: 0;
     box-shadow: #000000;
-    color:navy;
+    color: red;
     font-size: 20px;
     
 }
@@ -29,7 +29,7 @@ li{
     
 }
 
-div{
+aside{
     background-image: url('image.gif');
     border: 5px;
     border-radius: 30px;
