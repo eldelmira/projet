@@ -6,6 +6,10 @@ a{
     box-shadow: #000000;
     color: red;
     font-size: 20px;
+    border: 2px solid;
+    background-color: grey;
+    padding-top: 10px;
+
     
     
 }
@@ -35,6 +39,7 @@ aside{
     border: 5px;
     border-radius: 30px;
     width: 50%;
+    padding-top: 20px;
    
 }
 
@@ -44,23 +49,4 @@ h2{
     text-align: center;
     
 }
-
-.carte{
-  
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
-    height: 50px;
-    
-}
-
-.profile{
-
-    padding: 10 px ;
-    border: 3px;
-    border-radius: 100%;
-
-}
-
-
 
