@@ -7,6 +7,7 @@ a{
     color: red;
     font-size: 20px;
     
+    
 }
 
 body{
@@ -44,6 +45,22 @@ h2{
     
 }
 
+.carte{
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.profile{
+
+    padding: 10 px ;
+    border: 3px;
+    border-radius: 100%;
+
+}
 
 
 
