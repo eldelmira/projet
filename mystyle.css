@@ -1,8 +1,9 @@
 
 @keyframes alien {
     from {background-color: rgb(159, 8, 247);}
-    to {background-color: rgb(255, 8, 0);}
+    to {background-color: rgb(9, 114, 100);}
 }
+
 
 a{
     list-style: none;
@@ -16,11 +17,12 @@ a{
     padding-top: 10px;
     animation-name: alien;
     animation-iteration-count: infinite;
-    /*animation-duration: 4s;*/
-    
+    animation-duration: 4s;
+        
+}
 
-    
-    
+a:hover{
+    opacity: 0.10;
 }
 
 body{
