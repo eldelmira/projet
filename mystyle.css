@@ -1,21 +1,30 @@
+
+@keyframes alien {
+    from {background-color: rgb(159, 8, 247);}
+    to {background-color: rgb(255, 8, 0);}
+}
+
 a{
     list-style: none;
     text-decoration: none;
     width: 50%;
     margin: 0;
     box-shadow: #000000;
-    color: red;
     font-size: 20px;
     border: 2px solid;
     background-color: grey;
     padding-top: 10px;
+    animation-name: alien;
+    animation-iteration-count: infinite;
+    /*animation-duration: 4s;*/
+    
 
     
     
 }
 
 body{
-    background: linear-gradient(to right, #e100ff 0%, #9f07e6 100%);
+    background: linear-gradient(to right, #e100ff 0%, #9f07e6 100%); 
 }
 
 h1{
@@ -34,12 +43,15 @@ li{
     
 }
 
+
 aside{
     background-image: url('image.gif');
     border: 5px;
     border-radius: 30px;
     width: 50%;
     padding-top: 20px;
+    animation-name: alien;
+    animation-duration: 4s;
    
 }
 
