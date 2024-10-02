@@ -95,4 +95,25 @@ body{
     clear: both;
 }
 
+@media screen and (max-width:750px){
+
+}
+
+body{
+    background-color: darkslategray;
+}
+header{
+    background-color: teal;
+}   
+@media screen and (max-width:450px){
+
+}
+
+body{
+    background-color: darkslategray;
+}
+header{
+    background-color: teal;
+}   
+
 
