@@ -115,7 +115,7 @@ body{
 
 @media screen and (max-width:750px){
 
-}
+
 
 body{
     /*
@@ -126,17 +126,19 @@ body{
 }
 header{
     background-color: teal;
-}   
+}  
+} 
 @media screen and (max-width:450px){
 
-}
+
 
 body{
     background-color: darkslategray;
 }
 header{
     background-color: teal;
-}   
+} 
+}  
 
 .tp{
     text-decoration: none;
