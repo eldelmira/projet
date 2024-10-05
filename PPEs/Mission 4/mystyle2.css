@@ -23,6 +23,7 @@
     justify-content:center ;
     
     
+    
     /*height: 150px;*/
     
 }
@@ -49,7 +50,7 @@ h3{
     background-color: mediumslateblue;
 }
 
-.principal{
+.container{
     display: grid;
     width: 90%;
     height:fit-content;
@@ -60,10 +61,11 @@ h1{
     font-size: 20px;
 }
 
-p,h3{
+p,h3, li{
     font-size: 16px;
     font-style: bold;
     font-style: italic;
+    
 }
 
 
@@ -107,4 +109,8 @@ a{
     border-radius: 20px;
     text-align: center;
     text-decoration: none;
+}
+
+li{
+    list-style-position: inside;
 }
