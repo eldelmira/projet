@@ -168,7 +168,30 @@ textarea{
     height: 200px;
 }
 
-.b2{
-   background-image: "image.gif" ;
+header{
+
 }
 
+.b2{
+   background-image: url("image1.gif");
+   width: 100%;
+   height: 100%;
+}
+
+.sommaire1{
+   margin-left: auto;
+   margin-right: auto;
+   background-color: mediumslateblue;
+   width: 50%;
+   border: 1px solid white;
+   border-radius: 20px;
+   
+}
+
+.d1{
+    text-decoration-line: overline;
+    color: gold;
+    text-shadow: 0 0 10px #000000;
+    transition: 0s;
+  
+}
