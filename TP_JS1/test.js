@@ -21,7 +21,7 @@ function affiche(){
     let prenom = prompt("Saissisez votre prénom");
     let nom = prompt("Saissisez votre nom");
     let age = prompt("Saississez votre age ?");
-    document.write("<div style='border:5px solid blue; width:auto; height:300px; margin:auto; font-size:2em; text-align:center; background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,107,1) 50%, rgba(252,176,69,1) 100%);'>")
+    document.write("<div style='border:5px solid blue; width:auto; height:300px; margin:auto; font-size:2em; text-align:center; background: linear-gradient(90deg, rgba(131,58,180,1) 50%, rgba(29,253,107,1) 50%;'>")
     document.write("Bonjour  "+ prenom+ "   "+nom+ ".  "+"Vous avez"+ "   "+age+"  "+ "ans");
     document.write("</div>");
 }
