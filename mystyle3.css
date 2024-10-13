@@ -146,8 +146,10 @@ nav {
 
 li:hover{
     border-color: 5px solid black;
-    background-color: RGBa(228,77,38,0.15);
-    width: 180px;
+    background-color: RGBa(228,77,38,0.50);
+   
+    padding-right: 5px;
+
 }
 
 nav input[type=checkbox]:checked ~ ul{
