@@ -58,6 +58,7 @@ li{
     padding-bottom: 7px;
     padding: auto;
     padding-block: 10px;
+   
 }
 
 footer {
@@ -111,6 +112,7 @@ nav > ul::after {
     color: #EEE;
     font-weight: bold;
     border:  1px solid lightslategray;
+    width: 10px;
     border-radius: 10px;
    margin-bottom: 12px;
     
@@ -146,6 +148,7 @@ nav {
 li:hover{
     border-color: 5px solid black;
     background-color: RGBa(228,77,38,0.15);
+    width: 210px;
 }
 
 nav input[type=checkbox]:checked ~ ul{
@@ -239,27 +242,27 @@ nav .javascript:hover{
 nav .bdd:hover{
     border-top: 5px solid darkcyan ;
     background-color: RGBa(228, 77, 38,0.15);
-    opacity: 0.7;
+    opacity: 0.8;
     
 }
 
 nav .php:hover{
     border-top: 5px solid pink ;
     background-color: RGBa(228, 77, 38,0.15);
-    opacity: 0.7;
+    opacity: 0.8;
 }
 nav .mission:hover{
     border-top: 5px solid rgb(245, 127, 17) ;
     background-color: RGBa(228, 77, 38,0.15);
-    opacity: 0.7;
+    opacity: 0.8;
 }
 nav .certification:hover{
     border-top: 5px solid midnightblue ;
     background-color: RGBa(228, 77, 38,0.15);
-    opacity: 0.7;
+    opacity: 0.8;
 }
 nav .projects:hover{
     border-top: 5px solid darkred ;
     background-color: RGBa(228, 77, 38,0.15);
-    opacity: 0.7;
+    opacity: 0.8;
 }
