@@ -112,9 +112,8 @@ nav > ul::after {
     color: #EEE;
     font-weight: bold;
     border:  1px solid lightslategray;
-    width: 10px;
     border-radius: 10px;
-   margin-bottom: 12px;
+    margin-bottom: 12px;
     
      
     
@@ -148,7 +147,7 @@ nav {
 li:hover{
     border-color: 5px solid black;
     background-color: RGBa(228,77,38,0.15);
-    width: 210px;
+    width: 180px;
 }
 
 nav input[type=checkbox]:checked ~ ul{
