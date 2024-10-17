@@ -74,7 +74,7 @@ p{
 
 @media screen and (max-width:750px){
 
-}
+
 
 body{
     background-color: darkslategray;
@@ -82,15 +82,24 @@ body{
 header{
     background-color: teal;
 }   
+
+.groupe{
+    width: 300px;
+    height: 200px;
+
+}
+}
 @media screen and (max-width:450px){
 
-}
+
 
 body{
     background-color: darkslategray;
 }
 header{
     background-color: teal;
+    
 }   
 
 
+}
