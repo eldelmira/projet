@@ -128,12 +128,13 @@ li{
     list-style-position: inside;
 }
 
-@media screen and (min-width:460px){
+@media screen and (max-width:460px){
 
 
 
     body{
         background-color:teal;
+        
     }
     header{
         background-color: darkgray;
@@ -146,7 +147,7 @@ li{
         width: 140px;
     }
 
-    
+   
     
     
     
