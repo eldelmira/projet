@@ -6,7 +6,51 @@ h2{
     color: blueviolet;
 }
 
+h3{
+    color: black;
+}
 
+h3:hover{
+    color: white;
+}
+
+ul{
+    display: inline-table;
+    
+}
+nav{
+    background-color: black;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+p{
+    color: black;
+    text-emphasis: bold;
+}
+p:hover{
+    color: white ;
+}
+
+
+
+div{
+    background-color:white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+div:hover{
+  background-color: black;
+
+}
 
 @media screen and (max-width:750px){
 
