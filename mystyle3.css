@@ -154,7 +154,11 @@ nav .sousmenu li {
 
     
 }
+ 
 
+ nav  .sousmenu li:hover{
+opacity: 0.8;
+ }
 nav input[type=checkbox]:checked ~ ul{
     display: block;
 }
