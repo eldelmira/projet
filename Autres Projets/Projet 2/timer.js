@@ -1,8 +1,8 @@
 function time(){
   const dateDisplay = document.getElementsByClassId("time")
-  document.write.
   
-}
+  
+  }
 
 
 
