@@ -33,6 +33,7 @@ a{
 p{
     color: black;
     text-emphasis: bold;
+    font-weight: bold;
 }
 p:hover{
     color: white ;
@@ -51,6 +52,21 @@ div:hover{
   background-color: black;
 
 }
+
+footer {
+   
+
+    display: flex;
+       justify-content: center;
+       padding: 5px;
+       background-color: #45a1ff;
+       color: #fff;
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       
+   }
 
 @media screen and (max-width:750px){
 
