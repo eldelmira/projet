@@ -54,13 +54,14 @@ body{
     margin-bottom: 10px;
     border: 10px;
     border-style: groove;
-   
+    
     color: aliceblue;
     
 }
 
 .ecran:hover{
-    opacity: 0.4;
+    opacity: 0.1;
+    width: 90%;
 }
 
 .touches{
@@ -85,13 +86,16 @@ body{
 
     body{
         background-color: darkslategray;
+        display: block;
+
     }
     header{
         background-color: teal;
     } 
     .img{
-        width: 100px;
+        width: 200px;
         height: 100px;
+        
     }
     .ch{
         width: 100px;
@@ -111,8 +115,8 @@ body{
     } 
 
     .img{
-        width: 100px;
-        height: 100px;
+        width: 360px;
+        height: 150px;
     }
     .ch{
         width: 100px;
