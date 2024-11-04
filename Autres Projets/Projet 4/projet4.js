@@ -29,7 +29,19 @@ function couleur(){
     } 
     else if (couleur == "violet"){ 
         document.querySelector('.calculatrice').style.backgroundColor ="mediumslateblue"
+    }
+    else if (couleur == "blue"){ 
+        document.querySelector('.calculatrice').style.backgroundColor ="blue"
     }  
+    else if (couleur == "green"){ 
+        document.querySelector('.calculatrice').style.backgroundColor ="green"
+    } 
+    else if (couleur == "lightgrey"){ 
+        document.querySelector('.calculatrice').style.backgroundColor ="lightgrey"
+    }  
+    else if (couleur == "orange"){ 
+        document.querySelector('.calculatrice').style.backgroundColor ="orange"
+    }     
     else
     {
         document.write("Couleur non comprise")
