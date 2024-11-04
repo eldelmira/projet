@@ -60,7 +60,7 @@ body{
 }
 
 .ecran:hover{
-    opacity: 0.9;
+    opacity: 0.4;
 }
 
 .touches{
@@ -77,18 +77,46 @@ body{
 
 
 }
-    /*
-    width:70px;
-    height: 60px;
-    margin:10px;
-    font-size: larger;
-    border-style:outset;
-    padding-left: 10px;
-    font-weight: bold;
-    box-shadow: 0 0 20px black;
-    border-width: 10px;
-    font-family: dancing Script;*/
     
 
+@media screen and (max-width:750px){
+
+
+
+    body{
+        background-color: darkslategray;
+    }
+    header{
+        background-color: teal;
+    } 
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+    .ch{
+        width: 100px;
+    }
+
+    
+    }  
+    @media screen and (max-width:450px){
+    
+    
+    
+    body{
+        background-color: darkslategray;
+    }
+    header{
+        background-color: teal;
+    } 
+
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+    .ch{
+        width: 100px;
+    }
+    }  
 
 
