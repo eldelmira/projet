@@ -1,4 +1,13 @@
 
+/*function Réinitialiser() {
+    
+    // Réinitialiser tous les champs à vide
+    var ids = ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9"];
+    ids.forEach(function(id) {
+        document.getElementById(id).value = '';
+    });
+}*/
+
 let currentPlayer = "X";
 let gameActive = true;
 const gameState = ["", "", "", "", "", "", "", "", ""];
