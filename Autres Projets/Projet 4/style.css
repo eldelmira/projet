@@ -18,6 +18,7 @@ body{
 .couleur{
     display: block;
     width: 100px;
+    border-style: outset;
 
 }
 
